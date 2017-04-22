@@ -1,0 +1,305 @@
+/* 
+    Created on : 17.04.2017, 15:54:33
+    Author     : Eduar
+*/
+$color1:#6699cc;
+$color2:#09208f; 
+$color3:#FDFCBC;
+
+@import "../fancybox/jquery.fancybox.scss";
+@import "../site/css/format.scss";
+.site-under-construction{
+    margin:  auto; 
+    display: block; width: 100%; 
+    max-width: 1024px;
+}
+
+
+// about.php
+.content{
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5); 
+    border-radius: 10px; 
+    height: auto;
+
+    padding: 5px 50px 30px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fcf4e8;
+    border: 1px solid #d5d5ea;
+    border-bottom: none;
+
+    a {
+        color: #0ab;
+        text-decoration: underline;
+    }
+    a:hover {
+        color: #66a;
+    }
+
+    a:visited {
+        color: #6bc;
+    }
+
+    p img {
+        float: right;
+        padding: 0 20px 40px 50px;
+    }
+    p.small {
+        font-size: 10pt;
+        line-height: 1em;
+        padding: 1em 0 2em 0;
+    }
+    p.left {
+        position: absolute;
+        margin: 5px 0;
+    }
+    p.right {
+        position: relative;
+        margin: 5px 0 5px 100px;
+    }
+    margin-bottom: 50px;
+}
+
+#test1{
+    border-radius: 15px;
+    box-shadow: 25px 25px 15px rgba(0,0,0,0.5);
+    margin: 1em auto;
+    border: 2px solid #555;
+    width: 750px;
+    height: 360px;
+}
+.about_p{
+    text-align:justify;  
+    text-indent: 1.5em;
+    font-style: italic;
+}
+.about_span{
+    display: block;;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+    font-size: 28px;
+    color: $color1;
+    font-weight: bold;
+    font-style: italic;
+}
+.about_img{
+    float: right;
+    margin: 10px 35px; 
+    border-radius:10px;
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
+}
+.about_div{
+    margin-top: 80px; 
+    padding:15px; 
+    height: auto; 
+}
+
+.about_h4{ 
+    text-align:right; 
+    margin-top: 35px; 
+    margin-right: 25px;
+    font-style: italic;
+}
+.about_h5{
+    text-align:right;
+    margin-top: -20px; 
+    margin-right: 25px;
+    font-style: italic; 
+}
+
+//  posters.php
+.posters{
+    max-height: 1500px; 
+    overflow: auto;
+}
+.posters_a{
+    float: right; margin-top: -15px;
+}
+
+.posters_a_img{
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5); 
+    border-radius: 10px;
+    margin: 25px;
+}
+.posters_p{
+    display: inline-block;
+    border-radius: 5px; 
+    background-color: $color3; 
+    padding: 10px 15px; 
+    margin-top: 10px;
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5); 
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.posters_n{
+    font-weight: bold;
+    color: #f00;
+}
+
+//  multimedia.php
+.multimedia_h3{
+    border-radius: 10px; 
+    background-color: $color3; 
+    padding: 15px;
+    margin-top: 25px;
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+}
+.multimedia_div{
+    overflow: auto; 
+    max-height: 500px;
+    margin-bottom: 50px;
+}
+.multimedia_span1{
+    color: $color1;  
+    font-family: Arial, Lucida Sans Unicode, Sans-Serif; 
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.multimedia_span2{
+    color: $color2;
+    font-family: Arial, Lucida Sans Unicode, Sans-Serif; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+//  foto.php
+.foto_span1{
+    color: $color1;  
+    font-family: Arial, Lucida Sans Unicode, Sans-Serif; 
+    font-size: 14px;
+    font-weight: bold; 
+    margin-right: 25px;
+}
+.foto_span2{
+    color: $color2; 
+    font-family: Arial, Lucida Sans Unicode, Sans-Serif; 
+    font-size: 19px;
+    font-weight: bold;
+}
+.foto_div1{
+    max-height: 150px; 
+    overflow: auto; 
+}
+.foto_div2{
+    border-radius: 10px; 
+    background-color: $color3; 
+    padding: 15px;
+    margin-top: 25px;
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5); 
+}
+.foto_hr{
+    margin-bottom: 50px;
+}
+
+//video.php
+.video_h4{
+    text-align: right;
+}
+.video_div1{
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5); 
+    border-radius: 10px; 
+    width: 810px; 
+    height:485px; 
+}
+.video_div2{
+    overflow: auto;
+    max-height: 500px;
+}
+.video_h3{
+    margin-bottom: 35px;
+}
+
+//  orchestra.php
+.orchestra_img{
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-top: 35px; 
+    max-width: 790px;
+}
+.orchestra_div{
+    margin-top: 35px;
+    text-align:justify;
+}
+
+//  friends.php
+.friends_h2{
+    color: $color1;
+}
+.friends_img{
+    border-radius: 15px; 
+    box-shadow: 25px 25px 15px rgba(0,0,0,0.5); 
+    margin-top: 25px; 
+    margin-bottom: 25px;
+}
+
+//  cooperation.php
+.cooperation_img{
+    margin-top:25px;
+    box-shadow:15px 10px 15px rgba(0,0,0,0.5);
+    border-radius: 10px; 
+    height: auto;
+    margin-bottom: 50px;
+}
+
+//  contact.php
+.contact_h2{
+    color: $color1;
+}
+.contact_h4{
+    color: $color1;
+}
+.contact_fon{
+    background: #fcf4e8 url(../images/bg_partitur.jpg) repeat-y right top;
+}
+.br{
+    margin-bottom: 20px;
+}
+.contact_span{
+    font-family: Arial, Lucida Sans Unicode, Sans-Serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dib{
+    display: inline-block;
+}
+.mr15{
+    margin-right: 15px;
+}
+.contact_p{
+    margin-top: 35px;
+}
+
+//  concert.php
+.concert_span{
+    display: block; 
+    margin-top: 25px;
+    margin-bottom: 10px; 
+    color: $color1; 
+    font-weight: bold;
+}
+.concert_img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.concert_p{
+    text-align: justify;
+}
+.concert_div{
+    height: 50px;
+}
+.concert_a{
+    float: right; 
+    margin-top: 25px;
+}
+
+//  concerts.php
+.concerts_div{
+    max-height: 800px; 
+    overflow: auto;
+    margin-top: 25px;
+}

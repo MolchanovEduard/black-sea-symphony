@@ -1,0 +1,21 @@
+{
+  "name": "black-sea-symphony",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Eduard-Molchanov <EduardMolchanov@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
