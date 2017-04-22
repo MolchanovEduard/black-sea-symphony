@@ -59,7 +59,6 @@ g.task("build", function () {
 	
 	g.src("fancybox/*.php")
 	.pipe(g.dest("dest/fancybox"));
-	
-	
+		
 });
 	
